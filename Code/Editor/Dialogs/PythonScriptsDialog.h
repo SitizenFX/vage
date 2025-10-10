@@ -7,12 +7,10 @@
  */
 #pragma once
 
-#if !defined(Q_MOC_RUN)
 #include <AzCore/std/containers/vector.h>
 
 #include <QWidget>
 #include <QScopedPointer>
-#endif
 
 namespace Ui {
     class CPythonScriptsDialog;

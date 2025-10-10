@@ -7,7 +7,6 @@
  */
 
 #pragma once
-#if !defined(Q_MOC_RUN)
 #include <QGraphicsView>
 #include <QMenu>
 #include <AzCore/std/containers/unordered_map.h>
@@ -16,8 +15,7 @@
 #include <EffectorInspector.h>
 #include <OpenParticleSystem/Serializer/ParticleSourceData.h>
 #include <Window/ParticleItemWidget.h>
-#include <OpenParticleSystem/ParticleGraphicsViewRequestsBus.h>
-#endif
+#include <Window/ParticleGraphicsViewRequestsBus.h>
 
 namespace OpenParticleSystemEditor
 {

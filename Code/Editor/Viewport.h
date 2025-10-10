@@ -10,7 +10,6 @@
 
 #pragma once
 
-#if !defined(Q_MOC_RUN)
 #include <AzFramework/Viewport/ViewportId.h>
 #include <AzToolsFramework/Viewport/ViewportTypes.h>
 #include <AzToolsFramework/ViewportUi/ViewportUiManager.h>
@@ -27,7 +26,6 @@
 
 #include <AzCore/Math/Uuid.h>
 #include <IEditor.h>
-#endif
 
 namespace AzQtComponents
 {

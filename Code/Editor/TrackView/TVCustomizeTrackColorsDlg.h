@@ -12,10 +12,9 @@
 
 #pragma once
 
-#if !defined(Q_MOC_RUN)
 #include <QColor>
 #include <QDialog>
-#endif
+
 #include <AzCore/std/containers/map.h>
 
 namespace Ui

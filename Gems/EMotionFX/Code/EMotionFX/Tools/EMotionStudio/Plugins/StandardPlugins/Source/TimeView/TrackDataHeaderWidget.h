@@ -8,18 +8,17 @@
 
 #pragma once
 
-#if !defined(Q_MOC_RUN)
 #include <MCore/Source/StandardHeaders.h>
 #include <AzCore/std/containers/vector.h>
 #include "../StandardPluginsConfig.h"
 #include <EMotionFX/CommandSystem/Source/MotionEventCommands.h>
 #include <EMotionFX/Source/Recorder.h>
 #include "TimeTrack.h"
+
 #include <QOpenGLWidget>
 #include <QPen>
 #include <QFont>
 #include <QOpenGLFunctions>
-#endif
 
 namespace EMStudio
 {
