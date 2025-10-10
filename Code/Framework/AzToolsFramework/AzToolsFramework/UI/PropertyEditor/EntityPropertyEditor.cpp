@@ -5637,4 +5637,3 @@ void StatusComboBox::wheelEvent(QWheelEvent* e)
     }
 }
 
-#include "UI/PropertyEditor/moc_EntityPropertyEditor.cpp"

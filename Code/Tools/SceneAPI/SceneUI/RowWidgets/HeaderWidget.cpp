@@ -330,4 +330,3 @@ namespace AZ
     } // SceneAPI
 } // AZ
 
-#include <RowWidgets/moc_HeaderWidget.cpp>
