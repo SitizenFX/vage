@@ -17,7 +17,7 @@
 
 namespace AzToolsFramework
 {
-    void IconButton::enterEvent(QEvent *event)
+    void IconButton::enterEvent(QEnterEvent *event)
     {
         // do not update the button if it is disabled
         if (!isEnabled())

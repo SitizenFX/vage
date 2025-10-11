@@ -21,7 +21,6 @@
 #include <QLayout>
 #include <QApplication>
 #include <QRect>
-#include <QDesktopWidget>
 #include <QMessageBox>
 #include <QRubberBand>
 #include <QCursor>
@@ -786,7 +785,7 @@ const QtViewPane* QtViewPaneManager::OpenPane(const QString& name, QtViewPane::O
 
     // If the dock widget is off screen (e.g. second monitor was disconnected),
     // restore its default state
-    if (QApplication::desktop()->screenNumber(newDockWidget) == -1)
+    if (QApplication::screens().indexOf(newDockWidget->screen()))
     {
         const bool forceToDefault = true;
         newDockWidget->RestoreState(forceToDefault);
@@ -1124,8 +1123,8 @@ void QtViewPaneManager::RestoreDefaultLayout(bool resetSettings)
         // before doing anything else, its height and width won't update until after this has all
         // been processed, so we need to resize the panes based on what the main window
         // height and width WILL be after maximized
-        int screenWidth = QApplication::desktop()->screenGeometry(m_mainWindow).width();
-        int screenHeight = QApplication::desktop()->screenGeometry(m_mainWindow).height();
+        int screenWidth = QApplication::primaryScreen()->size().width();
+        int screenHeight = QApplication::primaryScreen()->size().height();
 
         // Add the console view pane first
         m_mainWindow->addDockWidget(Qt::BottomDockWidgetArea, consoleViewPane->m_dockWidget);
@@ -1610,7 +1609,10 @@ QtViewPane* QtViewPaneManager::GetPane(int id)
     auto it = std::find_if(m_registeredPanes.begin(), m_registeredPanes.end(),
             [id](const QtViewPane& pane) { return id == pane.m_id; });
 
-    return it == m_registeredPanes.end() ? nullptr : it;
+    if (it == m_registeredPanes.end())
+        return nullptr;
+    else
+        return it;
 }
 
 QtViewPane* QtViewPaneManager::GetPane(const QString& name)
