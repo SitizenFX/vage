@@ -8,6 +8,7 @@
 #pragma once
 
 #include <QWidget>
+#include <QScopedPointer>
 
 #include <GraphCanvas/Components/SceneBus.h>
 #include <GraphCanvas/Editor/AssetEditorBus.h>
@@ -36,7 +37,7 @@ namespace GraphCanvas
         AZ_CLASS_ALLOCATOR(AssetEditorToolbar, AZ::SystemAllocator);
 
         AssetEditorToolbar(EditorId editorId);
-        ~AssetEditorToolbar() = default;
+        ~AssetEditorToolbar() override;
 
         void AddCustomAction(QToolButton* toolButton);
 
@@ -97,6 +98,6 @@ namespace GraphCanvas
 
         bool m_viewDisabled = false;
     
-        AZStd::unique_ptr<Ui::AssetEditorToolbar> m_ui;
+        QScopedPointer<Ui::AssetEditorToolbar> m_ui;
     };
 }

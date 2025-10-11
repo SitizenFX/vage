@@ -289,3 +289,7 @@ AzQtComponents::TreeView::setBranchLinesEnabled(treeView, true);
     ui->exampleText->setHtml(exampleText);
 }
 
+TreeViewPage::~TreeViewPage()
+{
+}
+

@@ -6,13 +6,11 @@
  *
  */
 
-
-#ifndef CRYINCLUDE_EDITOR_TOOLSCONFIGPAGE_H
-#define CRYINCLUDE_EDITOR_TOOLSCONFIGPAGE_H
 #pragma once
 
 #include <QDialog>
 #include <QStringListModel>
+#include <QScopedPointer>
 
 namespace Ui
 {
@@ -31,6 +29,7 @@ class CIconListDialog
     Q_OBJECT
 public:
     CIconListDialog(QWidget* pParent = nullptr);
+    ~CIconListDialog() override;
 
     bool GetSelectedIconPath(QString& path) const;
 
@@ -105,5 +104,3 @@ private:
 
     QScopedPointer<Ui::ToolsConfigPage> m_ui;
 };
-
-#endif // CRYINCLUDE_EDITOR_TOOLSCONFIGPAGE_H

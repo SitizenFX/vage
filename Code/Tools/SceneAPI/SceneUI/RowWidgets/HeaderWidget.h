@@ -9,6 +9,8 @@
  */
 
 #include <QWidget>
+#include <QScopedPointer>
+
 #include <AzCore/std/string/string.h>
 #include <AzCore/Memory/SystemAllocator.h>
 
@@ -44,6 +46,7 @@ namespace AZ
                 };
 
                 explicit HeaderWidget(QWidget* parent);
+                ~HeaderWidget() override;
 
                 void SetManifestObject(const DataTypes::IManifestObject* target);
                 const DataTypes::IManifestObject* GetManifestObject() const;

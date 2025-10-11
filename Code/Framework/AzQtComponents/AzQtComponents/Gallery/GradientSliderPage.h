@@ -20,6 +20,7 @@ class GradientSliderPage : public QWidget
 
 public:
     explicit GradientSliderPage(QWidget* parent = nullptr);
+    ~GradientSliderPage() override;
 
 private:
     QScopedPointer<Ui::GradientSliderPage> ui;

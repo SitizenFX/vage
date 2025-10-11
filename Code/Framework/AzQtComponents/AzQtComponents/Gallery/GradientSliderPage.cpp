@@ -50,3 +50,7 @@ slider->updateGradient();
     ui->exampleText->setHtml(exampleText);
 }
 
+GradientSliderPage::~GradientSliderPage()
+{
+}
+

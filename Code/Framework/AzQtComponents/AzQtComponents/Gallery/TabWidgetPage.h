@@ -8,6 +8,7 @@
 #pragma once
 
 #include <QWidget>
+#include <QScopedPointer>
 
 namespace Ui
 {
@@ -21,6 +22,7 @@ class TabWidgetPage
 
 public:
     explicit TabWidgetPage(QWidget* parent = nullptr);
+    ~TabWidgetPage() override;
 
 private:
     QScopedPointer<Ui::TabWidgetPage> ui;

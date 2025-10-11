@@ -8,7 +8,9 @@
 #pragma once
 
 #include <AzCore/Asset/AssetCommon.h>
+
 #include <QWidget>
+#include <QScopedPointer>
 
 namespace AzPhysics
 {
@@ -42,6 +44,7 @@ namespace PhysX
             static void RegisterViewClass();
 
             explicit EditorWindow(QWidget* parent = nullptr);
+            ~EditorWindow() override;
 
         private:
             static void SaveConfiguration(

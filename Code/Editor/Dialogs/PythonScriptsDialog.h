@@ -8,8 +8,10 @@
 #pragma once
 
 #include <AzCore/std/containers/vector.h>
+#include <AzCore/Math/Guid.h>
 
 #include <QWidget>
+#include <QString>
 #include <QScopedPointer>
 
 namespace Ui {
@@ -22,7 +24,7 @@ class CPythonScriptsDialog
     Q_OBJECT
 public:
     explicit CPythonScriptsDialog(QWidget* parent = nullptr);
-    ~CPythonScriptsDialog();
+    ~CPythonScriptsDialog() override;
 
     static const GUID& GetClassID()
     {

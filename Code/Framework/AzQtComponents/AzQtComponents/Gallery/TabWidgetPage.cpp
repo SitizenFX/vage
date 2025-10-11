@@ -289,3 +289,7 @@ AzQtComponents::TabWidget::applySecondaryStyle(tabWidget, bordered);
     ui->exampleText->setHtml(exampleText);
 }
 
+TabWidgetPage::~TabWidgetPage()
+{
+}
+

@@ -44,3 +44,7 @@ view->viewport()->setAcceptDrops(true);
 
     ui->exampleText->setHtml(exampleText);
 }
+
+DragAndDropPage::~DragAndDropPage()
+{
+}
