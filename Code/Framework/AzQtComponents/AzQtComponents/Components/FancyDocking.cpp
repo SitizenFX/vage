@@ -126,7 +126,6 @@ namespace AzQtComponents
 
         // Register our TabContainerType stream operators so that they will be used
         // when reading/writing from/to data streams
-        qRegisterMetaTypeStreamOperators<FancyDocking::TabContainerType>("FancyDocking::TabContainerType");
         mainWindow->installEventFilter(this);
         mainWindow->SetFancyDockingOwner(this);
         setAutoFillBackground(false);
@@ -633,24 +632,7 @@ namespace AzQtComponents
      */
     QPoint FancyDocking::multiscreenMapFromGlobal(const QPoint& point) const
     {
-#if 0 //def AZ_PLATFORM_WINDOWS
-        int index = 0;
-        for (auto screen : QApplication::screens()) {
-            if (screen->geometry().contains(point)) {
-                qreal scaleFactor = QHighDpiScaling::factor(screen);
-                return (
-                    (m_perScreenFullScreenWidgets[index]->mapFromGlobal(point) * scaleFactor) +
-                    (m_perScreenFullScreenWidgets[index]->mapToGlobal({0, 0})) / scaleFactor);
-            }
-            ++index;
-        }
-
-        // If the point isn't contained in any screen, return the regular mapFromGlobal() result for now
-        // TODO - may need to do some shenanigan like the above based to the closest screen?
         return mapFromGlobal(point);
-#else
-        return mapFromGlobal(point);
-#endif
     }
 
     bool FancyDocking::WidgetContainsPoint(QWidget* widget, const QPoint& pos) const
@@ -2460,18 +2442,6 @@ namespace AzQtComponents
             if (m_state.snappedSide & SnapBottom)
             {
                 placeholderRect.translate(0, -margins.bottom());
-            }
-
-            // Also adjust the placeholderRect by the relative dpi change from the original screen, since setGeometry uses the screen's
-            // virtualGeometry!
-            QScreen* fromScreen = dock->screen();
-            QScreen* toScreen = Utilities::ScreenAtPoint(placeholderRect.topLeft());
-
-            if (fromScreen != toScreen)
-            {
-                qreal factorRatio = QHighDpiScaling::factor(fromScreen) / QHighDpiScaling::factor(toScreen);
-                placeholderRect.setWidth(aznumeric_cast<int>(aznumeric_cast<qreal>(placeholderRect.width()) * factorRatio));
-                placeholderRect.setHeight(aznumeric_cast<int>(aznumeric_cast<qreal>(placeholderRect.height()) * factorRatio));
             }
 
             // Place the floating dock widget

@@ -255,7 +255,7 @@ bool QtViewPane::CloseInstance(QDockWidget* dockWidget, CloseModes closeModes)
             if (dockWidget == m_dockWidget)
             {
                 //clear dockwidget pointer otherwise if we open this pane before the delete happens we'll think it's already there, then it gets deleted on us.
-                m_dockWidget.clear();
+                m_dockWidget = nullptr;
             }
         }
         else
@@ -556,9 +556,6 @@ QtViewPaneManager::QtViewPaneManager(QObject* parent)
     , m_advancedDockManager(nullptr)
     , m_componentModeNotifications(AZStd::make_unique<ViewportEditorModeNotificationsBusImpl>())
 {
-    qRegisterMetaTypeStreamOperators<ViewLayoutState>("ViewLayoutState");
-    qRegisterMetaTypeStreamOperators<QVector<QString> >("QVector<QString>");
-
     // view pane manager is interested when we enter/exit ComponentMode
     m_componentModeNotifications->BusConnect(AzToolsFramework::GetEntityContextId());
     m_windowRequest.BusConnect();

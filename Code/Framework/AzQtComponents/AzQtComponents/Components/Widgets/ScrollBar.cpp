@@ -167,7 +167,8 @@ namespace AzQtComponents
                     {
                         if (auto styleSheet = StyleManager::styleSheetStyle(cornerWidget))
                         {
-                            styleSheet->repolish(cornerWidget);
+                            // #QT6_TODO
+                            // styleSheet->repolish(cornerWidget);
                         }
                     }
                     break;
@@ -300,16 +301,17 @@ namespace AzQtComponents
         return s_scrollBarWatcher->uninstall(widget);
     }
 
-    bool ScrollBar::drawScrollBar(const Style* style, const QStyleOptionComplex* option, QPainter* painter, const QWidget* widget, const Config& config)
+    bool ScrollBar::drawScrollBar(const Style*, const QStyleOptionComplex*, QPainter*, const QWidget*, const Config&)
     {
-        Q_UNUSED(config);
-
+        // #QT6_TODO
+        /*
         auto styleSheetStyle = qobject_cast<QStyleSheetStyle*>(style->baseStyle());
         if (styleSheetStyle)
         {
             styleSheetStyle->QWindowsStyle::drawComplexControl(QStyle::CC_ScrollBar, option, painter, widget);
             return true;
         }
+        */
 
         return false;
     }

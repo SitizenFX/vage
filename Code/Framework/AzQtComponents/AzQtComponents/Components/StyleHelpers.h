@@ -39,13 +39,15 @@ namespace AzQtComponents
         template <typename T, typename ...Args>
         void repolishWhenPropertyChanges(T* widget, void (T::*signal)(Args...))
         {
-            QObject::connect(widget, signal, widget, [widget]() {
+            QObject::connect(widget, signal, widget, []() {
                 // Prevent asserts in Unit Tests
                 if (!StyleManager::isInstanced())
                 {
                     return;
                 }
 
+                // #QT6_TODO
+                /*
                 if (auto styleSheet = StyleManager::styleSheetStyle(widget))
                 {
                     // For the widget and each of its children, QStyleSheetStyle::repolish clears
@@ -54,6 +56,7 @@ namespace AzQtComponents
                     // properties that are set in style sheets via qproperty- are correctly updated.
                     styleSheet->repolish(widget);
                 }
+                */
             });
         }
 

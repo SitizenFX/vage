@@ -342,8 +342,6 @@ ColorPicker::ColorPicker(ColorPicker::Configuration configuration, const QString
     , m_defaultVForHsMode(0.85)
     , m_defaultLForHsMode(0.85)
 {
-    qRegisterMetaTypeStreamOperators<Palette>("AzQtComponents::Palette");
-
     setFocusPolicy(Qt::NoFocus);
 
     m_currentColorController = new Internal::ColorController(this);

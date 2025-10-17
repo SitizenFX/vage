@@ -28,6 +28,7 @@ namespace AZ
         //! Default constructor, components are uninitialized.
         Color() = default;
         Color(const Vector4& v)   { m_color = v; }
+        Color(const Color& v)   { m_color = v.m_color; }
 
         explicit Color(const Vector2& source);
 

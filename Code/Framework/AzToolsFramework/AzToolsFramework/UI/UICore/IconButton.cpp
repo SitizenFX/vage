@@ -30,10 +30,11 @@ namespace AzToolsFramework
         QPushButton::enterEvent(event);
     }
 
-    void IconButton::leaveEvent(QEvent *event)
+    void IconButton::leaveEvent(QEvent *)
     {
         m_mouseOver = false;
-        QPushButton::enterEvent(event);
+        // #QT6_TODO
+        // QPushButton::enterEvent(event);
     }
 
     void IconButton::paintEvent(QPaintEvent* /*event*/)

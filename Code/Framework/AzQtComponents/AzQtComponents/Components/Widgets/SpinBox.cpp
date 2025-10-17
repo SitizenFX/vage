@@ -510,8 +510,9 @@ bool SpinBoxWatcher::filterSpinBoxEvents(QAbstractSpinBox* spinBox, QEvent* even
 
         case QEvent::DynamicPropertyChange:
         {
-            auto styleSheet = StyleManager::styleSheetStyle(spinBox);
-            styleSheet->repolish(spinBox);
+            // #QT6_TODO
+            // auto styleSheet = StyleManager::styleSheetStyle(spinBox);
+            // styleSheet->repolish(spinBox);
             break;
         }
 

@@ -44,7 +44,8 @@ namespace AzQtComponents
                         auto styleSheet = StyleManager::styleSheetStyle(widget);
                         if (styleSheet)
                         {
-                            styleSheet->repolish(widget);
+                            // #QT6_TODO
+                            // styleSheet->repolish(widget);
                         }
                         widget->update();
                         break;
