@@ -1,0 +1,85 @@
+SitizenFX End User License Agreement (EULA)
+Version 1.0 — 2025
+Copyright (c) 2025 SitizenFX (Elijah Siita)
+
+-----------------------------------------------------------------------
+1. AGREEMENT
+-----------------------------------------------------------------------
+This End User License Agreement ("EULA") is a legal agreement between you 
+("User" or "Licensee") and SitizenFX ("Licensor") for the use of SitizenFX 
+software, including but not limited to VidllEngine, VidllSecure, Vidllarwin, 
+and related applications ("Software").
+
+By installing, copying, or using the Software, you agree to be bound by the 
+terms of this EULA. If you do not agree, do not install or use the Software.
+
+-----------------------------------------------------------------------
+2. LICENSE GRANT
+-----------------------------------------------------------------------
+SitizenFX grants you a non-exclusive, non-transferable, revocable license to:
+- Install and use the Software on your personal or commercial devices.
+- Use the Software to develop, test, and run applications or games.
+- Make modifications for personal or internal use only, unless a separate 
+  commercial license is purchased.
+
+You may NOT:
+- Redistribute the Software in source code form without permission.
+- Sell or sublicense the Software itself.
+- Remove or alter copyright notices or branding.
+- Use the Software for unlawful or malicious purposes.
+
+-----------------------------------------------------------------------
+3. OWNERSHIP
+-----------------------------------------------------------------------
+All rights, titles, and interest in the Software and all copies remain with 
+SitizenFX and Elijah Siita. Any modifications you make remain your property 
+but must acknowledge SitizenFX when redistributed or used commercially.
+
+-----------------------------------------------------------------------
+4. WARRANTY DISCLAIMER
+-----------------------------------------------------------------------
+The Software is provided "AS IS" without warranties of any kind. SitizenFX, its 
+contributors, and Elijah Siita are not responsible for any damages, including 
+but not limited to data loss, software failure, or hardware damage.
+
+Use the Software at your own risk.
+
+-----------------------------------------------------------------------
+5. LIMITATION OF LIABILITY
+-----------------------------------------------------------------------
+In no event shall SitizenFX, its contributors, or Elijah Siita be liable for 
+any indirect, incidental, special, consequential, or punitive damages arising 
+from use, inability to use, or performance of the Software.
+
+-----------------------------------------------------------------------
+6. UPDATES AND SUPPORT
+-----------------------------------------------------------------------
+SitizenFX may provide updates or support at its discretion. Updates may be 
+subject to this EULA unless a separate commercial license specifies otherwise.
+
+-----------------------------------------------------------------------
+7. TERMINATION
+-----------------------------------------------------------------------
+This EULA is effective until terminated. SitizenFX may terminate this license if 
+you violate any terms. Upon termination, you must delete all copies of the 
+Software from your devices.
+
+-----------------------------------------------------------------------
+8. GOVERNING LAW
+-----------------------------------------------------------------------
+This Agreement is governed by the laws of Zambia and international software law.
+
+-----------------------------------------------------------------------
+9. THIRD-PARTY SOFTWARE
+-----------------------------------------------------------------------
+Some components of the Software may include Open 3D Engine (O3DE) or other 
+open-source code, which remains under its respective license (Apache 2.0 for O3DE).
+
+-----------------------------------------------------------------------
+10. CONTACT
+-----------------------------------------------------------------------
+For questions or commercial licensing inquiries:
+
+SitizenFX Licensing Department
+Attn: Elijah Siita
+Email: contact@sitizenfx.com (placeholder)
