@@ -2,7 +2,7 @@ Copyright (c) 2025 SitizenFX (Elijah Siita)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this software except in compliance with the License.
-You may obtain a copy of the License at
+You may obtain a copy of the License at:
 
     http://www.apache.org/licenses/LICENSE-2.0
 
@@ -13,24 +13,32 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 -----------------------------------------------------------------------
+ADDITIONAL TERMS FOR SITIZENFX / VAGE ENGINE:
 
-Additional Terms for SitizenFX and VidllEngine Projects:
+1. Ownership
+All modifications, enhancements, and proprietary systems created by SitizenFX
+or Elijah Siita ("The Author") are copyrighted © 2025 SitizenFX (Elijah Siita).
+These proprietary components are not open-source and may not be redistributed
+or sublicensed without explicit written permission.
 
-This software and all modified versions created by SitizenFX or Elijah Siita 
-("The Author") are provided "AS IS", without warranty of any kind, express or implied,
-including but not limited to the warranties of merchantability, fitness for a particular
-purpose, and noninfringement.
+2. Use
+You may use this software for personal, educational, or internal commercial 
+purposes, subject to the terms of the Apache 2.0 License for O3DE-derived code.
+Commercial redistribution or sale of SitizenFX proprietary components 
+requires a separate commercial license.
 
-In no event shall SitizenFX, its contributors, or Elijah Siita be liable for any claim,
-damages, or other liability, whether in an action of contract, tort, or otherwise,
-arising from, out of, or in connection with the software or the use or other dealings
-in the software.
+3. Attribution
+Any use of this software in derivative works or applications must include 
+proper attribution:
+- Copyright © 2025 SitizenFX (Elijah Siita)
+- Portions derived from Open 3D Engine (O3DE), Apache License 2.0
 
-Users use this software at their own risk.
+4. Warranty Disclaimer
+This software is provided "AS IS", without warranty of any kind. SitizenFX and
+Elijah Siita are not liable for any damages arising from the use of this software.
 
 -----------------------------------------------------------------------
-
 NOTICE:
-Parts of this software are derived from the Open 3D Engine (O3DE), 
-which is licensed under the Apache License, Version 2.0.
-All other original work is Copyright (c) 2025 SitizenFX (Elijah Siita).
+Parts of this software are derived from Open 3D Engine (O3DE), 
+licensed under the Apache License, Version 2.0. All other original work 
+is Copyright © 2025 SitizenFX (Elijah Siita).
