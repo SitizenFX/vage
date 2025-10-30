@@ -5,72 +5,84 @@ Copyright (c) 2025 SitizenFX (Elijah Siita)
 -----------------------------------------------------------------------
 1. OVERVIEW
 -----------------------------------------------------------------------
-This is a commercial license agreement between you (the "Licensee") and SitizenFX
-(the "Licensor"), regarding the use of SitizenFX technology, including but not limited to:
-VidllEngine, VidllSecure, Vidllarwin, VidllStation OS, VidllPhone OS, and related tools.
+This Commercial License Agreement ("Agreement") is made between you 
+(the "Licensee") and SitizenFX (the "Licensor"), concerning the use of 
+SitizenFX technologies, including but not limited to:
 
-By installing, copying, modifying, or otherwise using this software, the Licensee agrees
-to be bound by the terms of this Agreement.
+- VidllEngine
+- VidllSecure
+- Vidllarwin
+- VidllStation OS
+- VidllPhone OS
+- Related tools and software systems ("Software")
+
+By installing, copying, modifying, or otherwise using this Software, the Licensee 
+agrees to be bound by the terms of this Agreement.
 
 -----------------------------------------------------------------------
 2. LICENSE GRANT
 -----------------------------------------------------------------------
 SitizenFX grants the Licensee a limited, non-exclusive, non-transferable license to:
-- Use the software for commercial or personal projects;
+- Use the Software for personal, educational, or commercial projects;
 - Modify the source code for internal use;
-- Distribute compiled products that use the software (games, applications, or systems);
-provided that the Licensee maintains attribution to SitizenFX and Elijah Siita
-within documentation or splash screens as follows:
+- Distribute compiled products built with the Software (such as games, applications, 
+  or operating systems);
 
-    “Powered by SitizenFX Technology” or “Built with VidllEngine by Elijah Siita”
+Provided that attribution is maintained to SitizenFX and Elijah Siita in all 
+documentation, splash screens, or credits as follows:
+
+    “Powered by SitizenFX Technology” 
+    or 
+    “Built with VidllEngine by Elijah Siita”
 
 -----------------------------------------------------------------------
 3. RESTRICTIONS
 -----------------------------------------------------------------------
 The Licensee may NOT:
-- Redistribute, sublicense, or sell the source code without written permission;
-- Remove or alter copyright or attribution notices;
-- Use the software for illegal, harmful, or deceptive purposes;
-- Claim ownership of SitizenFX or its original technologies.
+- Redistribute, sublicense, or sell the Software source code without prior written consent;
+- Remove or modify any copyright, license, or attribution notices;
+- Use the Software for unlawful, malicious, or deceptive purposes;
+- Misrepresent SitizenFX or claim ownership of its original technologies.
 
 -----------------------------------------------------------------------
 4. OWNERSHIP
 -----------------------------------------------------------------------
-All intellectual property rights in the software remain the property of SitizenFX and
-Elijah Siita. Any modifications or derivative works created by the Licensee belong to
-the Licensee but must still acknowledge SitizenFX as the base technology provider.
+All intellectual property rights in the Software remain the property of 
+SitizenFX and Elijah Siita.  
+Any modifications or derivative works created by the Licensee remain their property, 
+but must acknowledge SitizenFX as the underlying technology provider.
 
 -----------------------------------------------------------------------
 5. LIMITED WARRANTY
 -----------------------------------------------------------------------
-The software is provided “AS IS,” without warranty of any kind, express or implied,
-including but not limited to warranties of merchantability, fitness for a particular
-purpose, and noninfringement. SitizenFX is not liable for any damages arising from
-the use or inability to use the software.
+The Software is provided "AS IS," without any warranty of any kind, express or implied, 
+including but not limited to warranties of merchantability, fitness for a particular 
+purpose, and noninfringement. SitizenFX shall not be liable for any damages arising 
+from the use or inability to use the Software.
 
 -----------------------------------------------------------------------
 6. SUPPORT AND UPDATES
 -----------------------------------------------------------------------
-Commercial license holders may receive updates and technical support according to
-their purchased plan or contract agreement with SitizenFX.
+Commercial license holders may receive updates, patches, and technical support 
+based on their purchased plan or enterprise agreement with SitizenFX.
 
 -----------------------------------------------------------------------
 7. TERMINATION
 -----------------------------------------------------------------------
-This license is valid until terminated. SitizenFX may terminate this license if the
-Licensee violates any terms of this agreement. Upon termination, the Licensee must
-destroy all copies of the software in their possession.
+This Agreement is effective until terminated. SitizenFX may terminate the license 
+if the Licensee breaches any of its terms. Upon termination, all copies of the 
+Software must be destroyed and all use must cease immediately.
 
 -----------------------------------------------------------------------
 8. GOVERNING LAW
 -----------------------------------------------------------------------
-This agreement shall be governed by and interpreted in accordance with the laws of
-Zambia and international software law, without regard to conflicts of law principles.
+This Agreement shall be governed by and construed under the laws of Zambia 
+and applicable international software law, without regard to conflict of law principles.
 
 -----------------------------------------------------------------------
 9. CONTACT
 -----------------------------------------------------------------------
-For commercial inquiries, redistribution requests, or enterprise support:
+For commercial licensing, redistribution, or enterprise inquiries:
 
     SitizenFX Licensing Department
     Attn: Elijah Siita
@@ -79,6 +91,6 @@ For commercial inquiries, redistribution requests, or enterprise support:
 -----------------------------------------------------------------------
 NOTICE
 -----------------------------------------------------------------------
-This software includes components derived from the Open 3D Engine (O3DE),
+This Software includes components derived from the Open 3D Engine (O3DE),
 licensed under the Apache License, Version 2.0.
 All other components are proprietary to SitizenFX and Elijah Siita.
