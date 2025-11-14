@@ -37,6 +37,12 @@ proper attribution:
 This software is provided "AS IS", without warranty of any kind. SitizenFX and
 Elijah Siita are not liable for any damages arising from the use of this software.
 
+5. Conflict Clause
+If any conflict arises between the Apache 2.0 License and the SitizenFX
+proprietary terms, the Apache 2.0 License applies only to the original
+O3DE-derived portions. All SitizenFX-original code is governed solely by the
+SitizenFX proprietary terms.
+
 -----------------------------------------------------------------------
 NOTICE:
 Parts of this software are derived from Open 3D Engine (O3DE), 
