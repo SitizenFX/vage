@@ -2,90 +2,125 @@ SitizenFX End User License Agreement (EULA)
 Version 1.0 — 2025
 Copyright (c) 2025 SitizenFX (Elijah Siita)
 
------------------------------------------------------------------------
+---
+
 1. AGREEMENT
------------------------------------------------------------------------
-This End User License Agreement ("EULA") is a legal agreement between you 
-("User" or "Licensee") and SitizenFX ("Licensor") regarding the use of SitizenFX 
-software, including but not limited to VAGE Engine, VidllEngine, VidllSecure, 
+
+---
+
+This End User License Agreement ("EULA") is a legal agreement between you
+("User" or "Licensee") and SitizenFX ("Licensor") regarding the use of SitizenFX
+software, including but not limited to VAGE Engine, VidllEngine, VidllSecure,
 Vidllarwin, and related applications ("Software").
 
-By installing, copying, or using the Software, you agree to be bound by the 
+By installing, copying, or using the Software, you agree to be bound by the
 terms of this EULA. If you do not agree, do not install or use the Software.
 
------------------------------------------------------------------------
+---
+
 2. LICENSE GRANT
------------------------------------------------------------------------
+
+---
+
 SitizenFX grants you a non-exclusive, non-transferable, revocable license to:
-- Install and use the Software on personal or commercial devices.
-- Use the Software to develop, test, and run applications or games.
-- Make modifications for personal or internal use only, unless a separate 
+
+* Install and use the Software on personal or commercial devices.
+* Use the Software to develop, test, and run applications or games.
+* Make modifications for personal or internal use only, unless a separate
   commercial license is purchased.
 
 You may NOT:
-- Redistribute the Software in source code or binary form without permission.
-- Sell or sublicense the Software itself.
-- Remove or alter copyright notices or branding.
-- Use the Software for unlawful or malicious purposes.
-- Mirror, share, or upload the Software or its components to any platform 
+
+* Redistribute the Software in source code or binary form without permission.
+* Sell or sublicense the Software itself.
+* Remove or alter copyright notices or branding.
+* Use the Software for unlawful or malicious purposes.
+* Mirror, share, or upload the Software or its components to any platform
   or repository without consent.
 
------------------------------------------------------------------------
+---
+
 3. OWNERSHIP
------------------------------------------------------------------------
-All rights, titles, and interest in the Software remain with SitizenFX and 
-Elijah Siita. Modifications by the User remain their property only for personal 
+
+---
+
+All rights, titles, and interest in the Software remain with SitizenFX and
+Elijah Siita. Modifications by the User remain their property only for personal
 or internal use, but commercial use requires proper acknowledgment of SitizenFX.
 
------------------------------------------------------------------------
+---
+
 4. WARRANTY DISCLAIMER
------------------------------------------------------------------------
-The Software is provided "AS IS" without warranties of any kind. SitizenFX, its 
-contributors, and Elijah Siita are not responsible for any damages, including 
+
+---
+
+The Software is provided "AS IS" without warranties of any kind. SitizenFX, its
+contributors, and Elijah Siita are not responsible for any damages, including
 data loss, software failure, or hardware damage. Use the Software at your own risk.
 
------------------------------------------------------------------------
+---
+
 5. LIMITATION OF LIABILITY
------------------------------------------------------------------------
-SitizenFX, its contributors, and Elijah Siita shall not be liable for any 
-direct, indirect, incidental, special, consequential, or punitive damages 
+
+---
+
+SitizenFX, its contributors, and Elijah Siita shall not be liable for any
+direct, indirect, incidental, special, consequential, or punitive damages
 arising from the use, inability to use, or performance of the Software.
 
------------------------------------------------------------------------
+---
+
 6. UPDATES AND SUPPORT
------------------------------------------------------------------------
-Updates, patches, or support may be provided at SitizenFX’s discretion. Updates 
+
+---
+
+Updates, patches, or support may be provided at SitizenFX’s discretion. Updates
 are governed by this EULA unless a separate commercial license specifies otherwise.
 
------------------------------------------------------------------------
+---
+
 7. TERMINATION
------------------------------------------------------------------------
-This EULA is effective until terminated. SitizenFX may terminate this license if 
+
+---
+
+This EULA is effective until terminated. SitizenFX may terminate this license if
 you violate any terms. Upon termination, you must delete all copies of the Software.
 
------------------------------------------------------------------------
+---
+
 8. GOVERNING LAW
------------------------------------------------------------------------
-This Agreement is governed by the laws of Zambia and applicable international 
+
+---
+
+This Agreement is governed by the laws of Zambia and applicable international
 software law.
 
------------------------------------------------------------------------
+---
+
 9. THIRD-PARTY SOFTWARE
------------------------------------------------------------------------
-Some components may include Open 3D Engine (O3DE) or other open-source code, 
-which remain under their respective licenses (Apache 2.0 for O3DE). All other 
+
+---
+
+Some components may include Open 3D Engine (O3DE) or other open-source code,
+which remain under their respective licenses (Apache 2.0 for O3DE). All other
 work is proprietary to SitizenFX / Elijah Siita.
 
------------------------------------------------------------------------
+---
+
 10. COMMERCIAL LICENSE
------------------------------------------------------------------------
-Commercial use, sale, sublicensing, or redistribution of modified versions 
-requires a separate commercial license from SitizenFX. Contact licensing for 
+
+---
+
+Commercial use, sale, sublicensing, or redistribution of modified versions
+requires a separate commercial license from SitizenFX. Contact licensing for
 inquiries.
 
------------------------------------------------------------------------
+---
+
 11. CONTACT
------------------------------------------------------------------------
+
+---
+
 SitizenFX Licensing Department
 Attn: Elijah Siita
-Email: contactsitizenfx@gmail.com (placeholder)
+Email: [contactsitizenfx@gmail.com](mailto:contactsitizenfx@gmail.com) (placeholder)
