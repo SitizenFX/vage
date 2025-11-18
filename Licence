@@ -16,35 +16,60 @@ limitations under the License.
 ADDITIONAL TERMS FOR SITIZENFX / VAGE ENGINE:
 
 1. Ownership
-All modifications, enhancements, and proprietary systems created by SitizenFX
-or Elijah Siita ("The Author") are copyrighted © 2025 SitizenFX (Elijah Siita).
-These proprietary components are not open-source and may not be redistributed
-or sublicensed without explicit written permission.
+All modifications, enhancements, systems, tools, editors, binaries,
+and proprietary components created by SitizenFX or Elijah Siita
+("The Author") are copyrighted © 2025 SitizenFX (Elijah Siita).
+These components are NOT open-source and may not be copied,
+modified, shared, redistributed, or sublicensed without explicit
+written permission from The Author.
 
 2. Use
-You may use this software for personal, educational, or internal commercial 
-purposes, subject to the terms of the Apache 2.0 License for O3DE-derived code.
-Commercial redistribution or sale of SitizenFX proprietary components 
-requires a separate commercial license.
+You may use the VAGE Engine and its tools for personal, educational,
+or internal commercial purposes.  
+Use of O3DE-derived portions is governed by the Apache 2.0 License.
+Use of SitizenFX proprietary components is governed by these
+additional terms.  
+Any public redistribution, resale, or commercial licensing of the
+VAGE Engine or its proprietary components requires a separate
+commercial agreement with SitizenFX.
 
-3. Attribution
-Any use of this software in derivative works or applications must include 
-proper attribution:
+3. Prohibited Actions
+Without explicit written permission, you may NOT:
+- Access, view, or attempt to obtain the engine source code
+- Reverse-engineer, decompile, or disassemble binaries
+- Modify any proprietary VAGE components
+- Redistribute the engine, tools, or SDK to third parties
+- Sell, rent, lease, or sublicense the engine or its components
+- Create forks or derivative engines based on VAGE
+
+4. Attribution
+Any use of this software in applications, tools, or derivative works
+must include the following attribution:
+
 - Copyright © 2025 SitizenFX (Elijah Siita)
 - Portions derived from Open 3D Engine (O3DE), Apache License 2.0
 
-4. Warranty Disclaimer
-This software is provided "AS IS", without warranty of any kind. SitizenFX and
-Elijah Siita are not liable for any damages arising from the use of this software.
+5. Warranty Disclaimer
+The VAGE Engine is provided "AS IS", without warranty of any kind.
+SitizenFX and Elijah Siita are not liable for any damages, loss of
+data, revenue, or consequences arising from use of the engine or its
+components.
 
-5. Conflict Clause
-If any conflict arises between the Apache 2.0 License and the SitizenFX
-proprietary terms, the Apache 2.0 License applies only to the original
-O3DE-derived portions. All SitizenFX-original code is governed solely by the
-SitizenFX proprietary terms.
+6. Conflict Clause
+If any conflict exists between the Apache 2.0 License and the SitizenFX
+proprietary terms, the Apache 2.0 License applies ONLY to the original
+O3DE-derived portions.  
+All SitizenFX-original code, binaries, and tools are governed solely
+by the proprietary terms in this document.
+
+7. Termination
+Any violation of these terms immediately terminates your rights to use
+the VAGE Engine and its components.  
+Upon termination, all copies of the engine and tools must be deleted.
 
 -----------------------------------------------------------------------
 NOTICE:
-Parts of this software are derived from Open 3D Engine (O3DE), 
-licensed under the Apache License, Version 2.0. All other original work 
-is Copyright © 2025 SitizenFX (Elijah Siita).
+Parts of this software are derived from Open 3D Engine (O3DE),
+licensed under the Apache License, Version 2.0.  
+All other original work is Copyright © 2025
+SitizenFX (Elijah Siita).
